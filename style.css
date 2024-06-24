@@ -1,0 +1,47 @@
+body {
+	display: grid;
+	place-items: center;
+	height: 90px;
+}
+
+.main {
+	height: 750px;
+	width: 500px;
+	border: solid pink;
+	display: grid;
+	place-items: center;
+
+}
+
+/* CSS pour l'encadrement */
+#encadrement {
+    border: solid pink;
+    text-align: center;
+    height: 1cm;
+    width: 10cm;
+}
+
+/* Dégradé pour le curseur */
+.main #rouge {
+    background: linear-gradient(90deg, black, red );
+}
+  
+.main #vert {
+    background: linear-gradient(90deg, black, green);
+}
+  
+.main #bleue {
+    background: linear-gradient(90deg, black, blue);
+}
+
+/* CSS pour le curseur */
+input[type="range"] {
+    width: 10cm;
+    height: 0.5cm; 
+    -webkit-appearance: none;
+}
+
+
+
+
+
